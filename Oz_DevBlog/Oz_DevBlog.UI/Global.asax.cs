@@ -8,6 +8,8 @@ using Oz_DevBlog.DAL.Context;
 using Oz_DevBlog.Data.Identity_Entity;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
+using System.Web.Http;
+using Oz_DevBlog.UI.App_Start;
 
 namespace Oz_DevBlog.UI
 {
@@ -15,6 +17,11 @@ namespace Oz_DevBlog.UI
     {
         protected void Application_Start()
         {
+            GlobalConfiguration.Configure(WebApiConfig.Register);
+            GlobalConfiguration.Configuration.Formatters.XmlFormatter.SupportedMediaTypes.Clear();
+
+            GlobalConfiguration.Configuration.Formatters.JsonFormatter.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore;
+
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             Oz_DevDBContext db = new Oz_DevDBContext();
