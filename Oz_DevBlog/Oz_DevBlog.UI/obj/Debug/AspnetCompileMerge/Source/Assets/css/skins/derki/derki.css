@@ -1,0 +1,38 @@
+aside .tags li,
+.pagination .active,
+.pagination li:hover,
+.color > span,
+.button,
+.title_section h1 ,
+#button_download,
+.social li{
+	background: #00b589;
+	background-color: #00b589;
+}
+.img-preview {
+	background: #00b589;
+    background: rgba(57, 180, 138,0.9)  no-repeat center center;   
+}
+a,
+.post a h3:hover,
+a:hover,
+.accordion-trigger:hover,
+.accordion-trigger.active,
+.item_info p,
+.title_area h1,
+.title_resalt,
+ul.check li i{
+	color: #00b589;
+}
+
+.logo{
+	border-top: 3px solid #00b589;
+}
+.is-sticky{
+	background: #00b589;
+    background: rgba(57, 180, 138,0.9);   
+}
+
+.title_section .arrow_title{
+	background: url("arrow_title.png") no-repeat;
+}

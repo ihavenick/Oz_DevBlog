@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Oz_DevBlog.Data.Model_Entity.SocialMedia>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.SocialMediaName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SocialMediaLink)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SocialMediaIcon)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateCreated)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateModified)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsActive)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.SocialMediaName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SocialMediaLink)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SocialMediaIcon)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateCreated)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateModified)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsActive)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.SocialMediaID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.SocialMediaID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.SocialMediaID })
+        </td>
+    </tr>
+}
+
+</table>

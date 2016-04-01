@@ -1,0 +1,87 @@
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Oz_DevBlog.Data.dll.config
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Oz_DevBlog.Data.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Oz_DevBlog.Data.pdb
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\EntityFramework.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Newtonsoft.Json.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Owin.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\EntityFramework.xml
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.xml
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.xml
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Newtonsoft.Json.xml
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\obj\Debug\Oz_DevBlog.Data.csprojResolveAssemblyReference.cache
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\obj\Debug\Oz_DevBlog.Data.dll
+c:\users\ata.cetin\documents\visual studio 2013\Projects\Oz_DevBlog\Oz_DevBlog.Data\obj\Debug\Oz_DevBlog.Data.pdb
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Oz_DevBlog.Data.dll.config
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Oz_DevBlog.Data.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Oz_DevBlog.Data.pdb
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\EntityFramework.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Newtonsoft.Json.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Owin.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\EntityFramework.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Newtonsoft.Json.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\obj\Debug\Oz_DevBlog.Data.csprojResolveAssemblyReference.cache
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\obj\Debug\Oz_DevBlog.Data.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog\Oz_DevBlog.Data\obj\Debug\Oz_DevBlog.Data.pdb
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Oz_DevBlog.Data.dll.config
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Oz_DevBlog.Data.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Oz_DevBlog.Data.pdb
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\EntityFramework.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\EntityFramework.SqlServer.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.Cookies.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.OAuth.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Newtonsoft.Json.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Owin.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\EntityFramework.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\EntityFramework.SqlServer.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.AspNet.Identity.Owin.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Host.SystemWeb.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.Cookies.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Microsoft.Owin.Security.OAuth.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\bin\Debug\Newtonsoft.Json.xml
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\obj\Debug\Oz_DevBlog.Data.csprojResolveAssemblyReference.cache
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\obj\Debug\Oz_DevBlog.Data.dll
+D:\Prince\Desktop\Oz_DevBlog\Oz_DevBlog.Data\obj\Debug\Oz_DevBlog.Data.pdb

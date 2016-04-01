@@ -1,0 +1,90 @@
+﻿@model Oz_DevBlog.Data.Model_Entity.Certification
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>Certification</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.CertificateName)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CertificateName)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CertificateContent)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CertificateContent)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CertificateDay)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CertificateDay)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CertificateLink)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CertificateLink)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.CertificateCorporation)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.CertificateCorporation)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.IsActive)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.IsActive)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.DateCreated)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.DateCreated)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.DateModified)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.DateModified)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.CertificationID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

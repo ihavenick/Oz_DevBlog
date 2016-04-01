@@ -1,0 +1,44 @@
+﻿@model IEnumerable<Oz_DevBlog.Data.Model_Entity.AdminDesc>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2> DENEME</h2>
+    <p>
+        @Html.ActionLink("Create New", "Create")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.AdminsTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdminsDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AdminsQuote)
+            </th>
+            <th></th>
+        </tr>
+    
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdminsTitle)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdminsDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdminsQuote)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.AdminDescID }) |
+                @Html.ActionLink("Details", "Details", new { id=item.AdminDescID }) |
+                @Html.ActionLink("Delete", "Delete", new { id=item.AdminDescID })
+            </td>
+        </tr>
+    }
+    
+    </table>

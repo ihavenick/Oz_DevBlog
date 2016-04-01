@@ -1,0 +1,50 @@
+﻿@model Oz_DevBlog.Data.Model_Entity.AdminDesc
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>AdminDesc</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.AdminsTitle)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.AdminsTitle)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.AdminsDesc)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.AdminsDesc)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.AdminsQuote)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.AdminsQuote)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.AdminDescID }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>

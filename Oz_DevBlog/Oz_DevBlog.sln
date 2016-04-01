@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oz_DevBlog.UI", "Oz_DevBlog.UI\Oz_DevBlog.UI.csproj", "{EDA7CBA9-A5BF-4A0A-A01D-57938FA34D55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oz_DevBlog.Data", "Oz_DevBlog.Data\Oz_DevBlog.Data.csproj", "{827B55ED-8860-4F9D-9766-E6D687E55B46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oz_DevBlog.DAL", "Oz_DevBlog.DAL\Oz_DevBlog.DAL.csproj", "{4CB06C61-27E0-44AC-BFAC-C9A2257E48EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EDA7CBA9-A5BF-4A0A-A01D-57938FA34D55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDA7CBA9-A5BF-4A0A-A01D-57938FA34D55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDA7CBA9-A5BF-4A0A-A01D-57938FA34D55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDA7CBA9-A5BF-4A0A-A01D-57938FA34D55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{827B55ED-8860-4F9D-9766-E6D687E55B46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{827B55ED-8860-4F9D-9766-E6D687E55B46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{827B55ED-8860-4F9D-9766-E6D687E55B46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{827B55ED-8860-4F9D-9766-E6D687E55B46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CB06C61-27E0-44AC-BFAC-C9A2257E48EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CB06C61-27E0-44AC-BFAC-C9A2257E48EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CB06C61-27E0-44AC-BFAC-C9A2257E48EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CB06C61-27E0-44AC-BFAC-C9A2257E48EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/Shared/AccountLayout.cshtml";
+}
+@using Oz_DevBlog.UI.Models.AccountVM;
+@model LoginVM
+
+<div class="col-md-6 col-md-offset-3">
+    @Html.ValidationSummary()
+    @using (Html.BeginForm("Login", "Account", FormMethod.Post))
+    {
+        @Html.AntiForgeryToken()
+        <div class="panel panel-primary">
+            <div class="panel-heading text-center">Giriş Ekranı</div>
+            <div class="panel-body">
+                <div class="col-md-12" style="margin-bottom:5px">
+                    <div class="col-md-4">
+                        @Html.LabelFor(x => x.UserName)
+                    </div>
+                    <div class="col-md-8">
+                        @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="col-md-4">
+                        @Html.LabelFor(x => x.Password)
+                    </div>
+                    <div class="col-md-8">
+                        @Html.PasswordFor(x => x.Password, new { @class = "form-control" })
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="col-md-2">
+                        @Html.CheckBoxFor(x => x.RememberMe)
+                    </div>
+                    <div class="col-md-10">
+                        @Html.LabelFor(x => x.RememberMe)
+                    </div>
+
+                </div>
+
+                <div class="col-md-12">
+
+                    <button type="submit" class="btn btn-success pull-right">Giriş Yap</button>
+                    @Html.ActionLink("Kayıt Ol", "Register", "Account", null, new { @class = "btn btn-warning pull-right",@style="margin-right:10px" })
+
+                </div>
+            </div>
+        </div>
+      
+    }
+
+</div>

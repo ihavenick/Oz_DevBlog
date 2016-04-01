@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="atacetin.net" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Prince\\Desktop\\Oz_DevBlog\\Oz_DevBlog\\Oz_DevBlog\.UI\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^D:\\Prince\\Desktop\\Oz_DevBlog\\Oz_DevBlog\\Oz_DevBlog\.UI\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Oz_DevBlog.DAL.Context.Oz_DevDBContext-Web.config Connection String" description="" value="Data Source=188.121.44.217;database=ihavenick_mssql;User ID=iha_sa;Password=i69el8H!;Connect Timeout=15;Encrypt=False;Packet Size=4096" tags="">
+    <parameterEntry kind="XmlFile" scope="D:\\Prince\\Desktop\\Oz_DevBlog\\Oz_DevBlog\\Oz_DevBlog\.UI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Oz_DevBlog.DAL.Context.Oz_DevDBContext']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,440 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EDA7CBA9-A5BF-4A0A-A01D-57938FA34D55}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Oz_DevBlog.UI</RootNamespace>
+    <AssemblyName>Oz_DevBlog.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="hbehr.recaptcha, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ReCaptcha-AspNet.1.1.0\lib\net45\hbehr.recaptcha.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Owin">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Owin.2.2.1\lib\net45\Microsoft.AspNet.Identity.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.Owin">
+      <HintPath>..\packages\Microsoft.Owin.3.0.1\lib\net45\Microsoft.Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Host.SystemWeb">
+      <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Cookies">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.OAuth">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Owin">
+      <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList">
+      <HintPath>..\packages\PagedList.1.17.0.0\lib\net40\PagedList.dll</HintPath>
+    </Reference>
+    <Reference Include="PagedList.Mvc">
+      <HintPath>..\packages\PagedList.Mvc.4.5.0.0\lib\net40\PagedList.Mvc.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Razor.3.2.3\lib\net45\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Deployment, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Deployment.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.WebPages.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.WebPages.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.Infrastructure">
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\css\animations\animate.css" />
+    <Content Include="Assets\css\animations\animations.css" />
+    <Content Include="Assets\css\font\fontawesome-webfont.svg" />
+    <Content Include="Assets\css\icons\font-awesome-ie7.css" />
+    <Content Include="Assets\css\icons\font-awesome-ie7.min.css" />
+    <Content Include="Assets\css\icons\font-awesome.css" />
+    <Content Include="Assets\css\icons\font-awesome.min.css" />
+    <Content Include="Assets\css\ie\ie.css" />
+    <Content Include="Assets\css\scrollbar\jquery.mCustomScrollbar.css" />
+    <Content Include="Assets\css\skins\black\arrow_title.png" />
+    <Content Include="Assets\css\skins\black\black.css" />
+    <Content Include="Assets\css\skins\blue\arrow_title.png" />
+    <Content Include="Assets\css\skins\blue\blue.css" />
+    <Content Include="Assets\css\skins\derki\arrow_title.png" />
+    <Content Include="Assets\css\skins\derki\derki.css" />
+    <Content Include="Assets\css\skins\green\arrow_title.png" />
+    <Content Include="Assets\css\skins\green\green.css" />
+    <Content Include="Assets\css\skins\orange\arrow_title.png" />
+    <Content Include="Assets\css\skins\orange\orange.css" />
+    <Content Include="Assets\css\skins\red\arrow_title.png" />
+    <Content Include="Assets\css\skins\red\red.css" />
+    <Content Include="Assets\css\style.css" />
+    <Content Include="Assets\img\bg-theme\1.png" />
+    <Content Include="Assets\img\bg-theme\10.png" />
+    <Content Include="Assets\img\bg-theme\11.png" />
+    <Content Include="Assets\img\bg-theme\2.png" />
+    <Content Include="Assets\img\bg-theme\3.png" />
+    <Content Include="Assets\img\bg-theme\4.png" />
+    <Content Include="Assets\img\bg-theme\5.png" />
+    <Content Include="Assets\img\bg-theme\6.png" />
+    <Content Include="Assets\img\bg-theme\7.png" />
+    <Content Include="Assets\img\bg-theme\8.png" />
+    <Content Include="Assets\img\bg-theme\9.png" />
+    <Content Include="Assets\img\bg-theme\none.jpg" />
+    <Content Include="Assets\img\blog\1.jpg" />
+    <Content Include="Assets\img\blog\2.jpg" />
+    <Content Include="Assets\img\blog\3.jpg" />
+    <Content Include="Assets\img\glyphicons-halflings.png" />
+    <Content Include="Assets\img\me.png" />
+    <Content Include="Assets\img\team\1.jpg" />
+    <Content Include="Assets\img\team\2.jpg" />
+    <Content Include="Assets\img\team\3.jpg" />
+    <Content Include="Assets\img\toggle.png" />
+    <Content Include="Assets\img\work\1.jpg" />
+    <Content Include="Assets\img\work\2.jpg" />
+    <Content Include="Assets\img\work\3.jpg" />
+    <Content Include="Assets\img\work\4.jpg" />
+    <Content Include="Assets\img\work\5.jpg" />
+    <Content Include="Assets\img\work\6.jpg" />
+    <Content Include="Assets\js\fancybox\blank.gif" />
+    <Content Include="Assets\js\fancybox\fancybox-x.png" />
+    <Content Include="Assets\js\fancybox\fancybox-y.png" />
+    <Content Include="Assets\js\fancybox\fancybox.png" />
+    <Content Include="Assets\js\fancybox\fancy_close.png" />
+    <Content Include="Assets\js\fancybox\fancy_loading.png" />
+    <Content Include="Assets\js\fancybox\fancy_nav_left.png" />
+    <Content Include="Assets\js\fancybox\fancy_nav_right.png" />
+    <Content Include="Assets\js\fancybox\fancy_shadow_e.png" />
+    <Content Include="Assets\js\fancybox\fancy_shadow_n.png" />
+    <Content Include="Assets\js\fancybox\fancy_shadow_ne.png" />
+    <Content Include="Assets\js\fancybox\fancy_shadow_nw.png" />
+    <Content Include="Assets\js\fancybox\fancy_shadow_s.png" />
+    <Content Include="Assets\js\fancybox\fancy_shadow_se.png" />
+    <Content Include="Assets\js\fancybox\fancy_shadow_sw.png" />
+    <Content Include="Assets\js\fancybox\fancy_shadow_w.png" />
+    <Content Include="Assets\js\fancybox\fancy_title_left.png" />
+    <Content Include="Assets\js\fancybox\fancy_title_main.png" />
+    <Content Include="Assets\js\fancybox\fancy_title_over.png" />
+    <Content Include="Assets\js\fancybox\fancy_title_right.png" />
+    <Content Include="Assets\js\fancybox\jquery.easing-1.3.pack.js" />
+    <Content Include="Assets\js\fancybox\jquery.fancybox-1.3.1.css" />
+    <Content Include="Assets\js\fancybox\jquery.fancybox-1.3.1.js" />
+    <Content Include="Assets\js\fancybox\jquery.fancybox-1.3.1.pack.js" />
+    <Content Include="Assets\js\fancybox\jquery.mousewheel-3.0.2.pack.js" />
+    <Content Include="Assets\js\jquery-1.8.3.min.js" />
+    <Content Include="Assets\js\jquery-func.js" />
+    <Content Include="Assets\js\nav\jquery.sticky.js" />
+    <Content Include="Assets\js\nav\tinynav.js" />
+    <Content Include="Assets\js\scrollbar\jquery.mCustomScrollbar.concat.min.js" />
+    <Content Include="Assets\js\scroll\smooth-scroll.js" />
+    <Content Include="Assets\js\theme-options\jquery.cookies.js" />
+    <Content Include="Assets\js\theme-options\theme-options.js" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\PagedList.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Global.asax" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Assets\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Areas\Admin\Views\BlogTypes\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\BlogTypes\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\BlogTypes\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\BlogTypes\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\BlogTypes\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Certifications\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Certifications\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Certifications\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Certifications\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Certifications\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Educations\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Educations\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Educations\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Educations\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Educations\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Employments\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Employments\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Employments\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Employments\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Employments\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Images\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Images\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Images\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Images\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Images\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Projects\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Projects\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Projects\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Projects\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Projects\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Seminars\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Seminars\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Seminars\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Seminars\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Seminars\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Skills\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Skills\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Skills\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Skills\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Skills\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\SkillTypes\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\SkillTypes\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\SkillTypes\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\SkillTypes\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\SkillTypes\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Tags\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Tags\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Tags\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Tags\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Tags\Index.cshtml" />
+    <Content Include="Assets\css\font\fontawesome-webfont.eot" />
+    <Content Include="Assets\css\font\fontawesome-webfont.ttf" />
+    <Content Include="Assets\css\font\fontawesome-webfont.woff" />
+    <Content Include="Assets\css\font\FontAwesome.otf" />
+    <Content Include="Assets\img\Thumbs.db" />
+    <Content Include="Assets\js\fancybox\desktop.ini" />
+    <Content Include="Areas\Admin\Views\SocialMedias\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\SocialMedias\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\SocialMedias\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\SocialMedias\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\SocialMedias\Index.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Areas\Admin\Views\Panel\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminDescs\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminDescs\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminDescs\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminDescs\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\AdminDescs\Index.cshtml" />
+    <Content Include="Areas\Admin\Views\Comments\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Comments\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Comments\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Comments\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Comments\Index.cshtml" />
+    <None Include="Properties\PublishProfiles\atacetin.net - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\GearHost.pubxml" />
+    <None Include="Properties\PublishProfiles\ihavenick - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\ihavenick - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\Somee.pubxml" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
+    <None Include="Scripts\jquery-2.2.0-vsdoc.js" />
+    <Content Include="Scripts\jquery-2.2.0.js" />
+    <Content Include="Scripts\jquery-2.2.0.min.js" />
+    <Content Include="Scripts\jquery-2.2.0.min.map" />
+    <None Include="Scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Scripts\jquery.validate.js" />
+    <Content Include="Scripts\jquery.validate.min.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Views\Home\Index.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\Admin\AdminAreaRegistration.cs" />
+    <Compile Include="Areas\Admin\Controllers\AdminDescsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\BlogsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\BlogTypesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CertificationsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\CommentsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\EducationsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\EmploymentsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\PanelController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ImagesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\ProjectsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\SeminarsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\SkillsController.cs" />
+    <Compile Include="Areas\Admin\Controllers\SkillTypesController.cs" />
+    <Compile Include="Areas\Admin\Controllers\SocialMediasController.cs" />
+    <Compile Include="Areas\Admin\Controllers\TagsController.cs" />
+    <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Models\AccountVM\LoginVM.cs" />
+    <Compile Include="Models\AccountVM\RegisterVM.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Startup.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\web.config" />
+    <Content Include="packages.config" />
+    <Content Include="Areas\Admin\Views\web.config" />
+    <Content Include="Areas\Admin\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\Admin\Views\Shared\_Layout.cshtml" />
+    <Content Include="Areas\Admin\Views\Blogs\Create.cshtml" />
+    <Content Include="Areas\Admin\Views\Blogs\Delete.cshtml" />
+    <Content Include="Areas\Admin\Views\Blogs\Details.cshtml" />
+    <Content Include="Areas\Admin\Views\Blogs\Edit.cshtml" />
+    <Content Include="Areas\Admin\Views\Blogs\Index.cshtml" />
+    <Content Include="Views\Home\Detail.cshtml" />
+    <Content Include="Views\Account\Login.cshtml" />
+    <Content Include="Views\Account\Register.cshtml" />
+    <Content Include="Views\Shared\AccountLayout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\User\Index.cshtml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Assets\Yuklenenresimler\" />
+    <Folder Include="Models\Model_View\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Oz_DevBlog.DAL\Oz_DevBlog.DAL.csproj">
+      <Project>{4cb06c61-27e0-44ac-bfac-c9a2257e48ef}</Project>
+      <Name>Oz_DevBlog.DAL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Oz_DevBlog.Data\Oz_DevBlog.Data.csproj">
+      <Project>{827b55ed-8860-4f9d-9766-e6d687e55b46}</Project>
+      <Name>Oz_DevBlog.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>27519</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:27519/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
